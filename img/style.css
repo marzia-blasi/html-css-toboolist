@@ -2,7 +2,7 @@
 
 * {
   margin: 0 auto;
-  padding: 0 auto;
+
   box-sizing: border-box;
 }
 
@@ -44,11 +44,21 @@ header,
 /* distanze nel body tra i div */
 .button {
   margin-bottom: 2px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  padding: 20px 0 9px 40px; /* top right bottom left */
 }
 
-/* style lista ordinata */
+/* style lista ordinata per ora lo toglo */
 ol {
   list-style-type: none;
+  padding-top: 40px;
+}
+
+/* vorrei mettere un po' di spazio  */
+
+li {
+  margin-bottom: 25px;
 }
 
 /* stile etichetta  */
