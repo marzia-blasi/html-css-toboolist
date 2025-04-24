@@ -13,6 +13,17 @@ body {
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+  background-color: #f6f8f9;
+}
+
+/* header allineati ma non come dovrebbero */
+
+h1 {
+  display: inline;
+}
+
+header {
+  margin-bottom: 40px;
 }
 
 /* centrare il main  */
@@ -22,15 +33,25 @@ main {
   width: 80%;
 }
 
+/* colori di background */
+
+header,
+.button,
+.todo {
+  background-color: white;
+}
+
+/* distanze nel body tra i div */
 .button {
   margin-bottom: 2px;
-  background-color: rgb(22, 192, 61);
 }
 
-.todo {
-  background-color: blue;
+/* style lista ordinata */
+ol {
+  list-style-type: none;
 }
 
+/* stile etichetta  */
 span {
   background-color: brown;
   color: white;
@@ -38,4 +59,39 @@ span {
   text-align: center;
   font-size: 13px;
   padding: 5px 12px;
+}
+
+/* etichetta1 Editorial #1e90ff  */
+.Editorial {
+  background-color: #1e90ff;
+}
+
+/* etichetta Q1 #9c72e4  */
+
+.Q1 {
+  background-color: #9c72e4;
+}
+
+/* etichetta  Recruiting #64c0a9 */
+
+.Recruiting {
+  background-color: #64c0a9;
+}
+
+/* etichetta Mobile #f29e33 */
+
+.Mobile {
+  background-color: #f29e33;
+}
+
+/* etichetta Website #d863a1 */
+
+.Website {
+  background-color: #d863a1;
+}
+
+/* etichetta Sales #b0c926  */
+
+.Sales {
+  background-color: #b0c926;
 }
