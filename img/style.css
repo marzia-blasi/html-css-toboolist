@@ -1,15 +1,34 @@
+/* General */
+
 * {
   margin: 0 auto;
   padding: 0 auto;
   box-sizing: border-box;
 }
 
+/* font */
 body {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+}
+
+/* centrare il main  */
+
+main {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.button {
+  margin-bottom: 2px;
+  background-color: rgb(22, 192, 61);
+}
+
+.todo {
+  background-color: blue;
 }
 
 span {
